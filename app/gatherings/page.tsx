@@ -27,11 +27,13 @@ export default function GatheringsPage() {
           </div>
         </section>
 
+        <div className="section-separator"></div>
+
         {/* Sunday Worship */}
         <section className="py-24 bg-white">
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
-              <div className="grid md:grid-cols-2 gap-16 items-center">
+              <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
                 <div className="relative aspect-[4/3] overflow-hidden shadow-lifted">
                   <Image
                     src="/pasture_ordination.jpg"
@@ -41,12 +43,12 @@ export default function GatheringsPage() {
                   />
                 </div>
                 <div>
-                  <div className="mb-8">
-                    <h2 className="text-4xl font-light text-stone-900 mb-3">Sunday Worship</h2>
-                    <p className="text-2xl text-emerald-600 font-medium">Sundays at 12:30 PM</p>
+                  <div className="mb-6 md:mb-8">
+                    <h2 className="text-2xl md:text-4xl font-light text-stone-900 mb-2 md:mb-3">Sunday Worship</h2>
+                    <p className="text-xl md:text-2xl text-green-700 font-medium">Sundays at 12:30 PM</p>
                   </div>
 
-                  <div className="space-y-6 text-lg text-stone-600 leading-relaxed">
+                  <div className="space-y-4 md:space-y-6 text-base md:text-lg text-stone-600 leading-relaxed">
                     <p>
                       Our Sunday worship service is the heart of our weekly gatherings. We come together as a
                       community to sing psalms and hymns, pray, hear God's Word preached, celebrate the sacraments,
@@ -59,10 +61,10 @@ export default function GatheringsPage() {
                     </p>
                   </div>
 
-                  <div className="mt-10">
+                  <div className="mt-6 md:mt-10">
                     <Link
                       href="/visit"
-                      className="inline-block bg-emerald-600 text-white px-8 py-4 hover:bg-emerald-700 transition text-lg"
+                      className="inline-block bg-green-700 text-white px-6 py-3 md:px-8 md:py-4 hover:bg-green-800 transition text-base md:text-lg"
                     >
                       Plan Your Visit
                     </Link>
@@ -73,18 +75,20 @@ export default function GatheringsPage() {
           </div>
         </section>
 
+        <div className="section-separator"></div>
+
         {/* Friday Night Gatherings */}
         <section className="py-24">
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
-              <div className="grid md:grid-cols-2 gap-16 items-center">
+              <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
                 <div className="order-2 md:order-1">
-                  <div className="mb-8">
-                    <h2 className="text-4xl font-light text-stone-900 mb-3">Friday Night Gatherings</h2>
-                    <p className="text-2xl text-emerald-600 font-medium">Every Friday Evening</p>
+                  <div className="mb-6 md:mb-8">
+                    <h2 className="text-2xl md:text-4xl font-light text-stone-900 mb-2 md:mb-3">Friday Night Gatherings</h2>
+                    <p className="text-xl md:text-2xl text-green-700 font-medium">Every Friday Evening</p>
                   </div>
 
-                  <div className="space-y-6 text-lg text-stone-600 leading-relaxed">
+                  <div className="space-y-4 md:space-y-6 text-base md:text-lg text-stone-600 leading-relaxed">
                     <p>
                       Our Friday night gatherings provide a more intimate setting for fellowship, prayer, and growing
                       together in community. These evenings are designed to build deeper relationships and provide
@@ -97,10 +101,10 @@ export default function GatheringsPage() {
                     </p>
                   </div>
 
-                  <div className="mt-10">
+                  <div className="mt-6 md:mt-10">
                     <Link
                       href="/contact"
-                      className="inline-block bg-stone-800 text-white px-8 py-4 hover:bg-stone-900 transition text-lg"
+                      className="inline-block bg-stone-800 text-white px-6 py-3 md:px-8 md:py-4 hover:bg-stone-900 transition text-base md:text-lg"
                     >
                       Contact Us for Details
                     </Link>

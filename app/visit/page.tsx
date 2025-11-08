@@ -16,18 +16,20 @@ export default function VisitPage() {
           </div>
         </section>
 
+        <div className="section-separator"></div>
+
         {/* Quick Info */}
         <section className="py-24">
           <div className="container mx-auto px-6">
-            <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
-              <div className="bg-white p-10 shadow-soft text-center">
-                <div className="bg-emerald-50 w-16 h-16 mx-auto mb-6 flex items-center justify-center">
-                  <svg className="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="grid md:grid-cols-3 gap-6 md:gap-10 max-w-6xl mx-auto">
+              <div className="bg-white p-6 md:p-10 shadow-soft text-center">
+                <div className="bg-green-50 w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 md:mb-6 flex items-center justify-center">
+                  <svg className="w-6 h-6 md:w-8 md:h-8 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-semibold mb-4 text-stone-900">Location</h3>
+                <h3 className="text-xl md:text-2xl font-semibold mb-3 md:mb-4 text-stone-900">Location</h3>
                 <div className="text-stone-600">
                   <p className="mb-1">[Address Line 1]</p>
                   <p className="mb-4">[City, State ZIP]</p>
@@ -35,39 +37,39 @@ export default function VisitPage() {
                     href="https://maps.google.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-emerald-600 hover:text-emerald-700 font-medium"
+                    className="text-green-700 hover:text-green-800 font-medium"
                   >
                     Get Directions →
                   </a>
                 </div>
               </div>
 
-              <div className="bg-white p-10 shadow-soft text-center">
-                <div className="bg-emerald-50 w-16 h-16 mx-auto mb-6 flex items-center justify-center">
-                  <svg className="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="bg-white p-6 md:p-10 shadow-soft text-center">
+                <div className="bg-green-50 w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 md:mb-6 flex items-center justify-center">
+                  <svg className="w-6 h-6 md:w-8 md:h-8 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-semibold mb-4 text-stone-900">Service Times</h3>
+                <h3 className="text-xl md:text-2xl font-semibold mb-3 md:mb-4 text-stone-900">Service Times</h3>
                 <div className="text-stone-600 space-y-2">
                   <div>
-                    <p className="font-medium text-emerald-600">Sunday Worship</p>
+                    <p className="font-medium text-green-700">Sunday Worship</p>
                     <p>12:30 PM</p>
                   </div>
                   <div className="pt-2">
-                    <p className="font-medium text-emerald-600">Friday Gatherings</p>
+                    <p className="font-medium text-green-700">Friday Gatherings</p>
                     <p>Evening</p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white p-10 shadow-soft text-center">
-                <div className="bg-emerald-50 w-16 h-16 mx-auto mb-6 flex items-center justify-center">
-                  <svg className="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="bg-white p-6 md:p-10 shadow-soft text-center">
+                <div className="bg-green-50 w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 md:mb-6 flex items-center justify-center">
+                  <svg className="w-6 h-6 md:w-8 md:h-8 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-semibold mb-4 text-stone-900">What to Expect</h3>
+                <h3 className="text-xl md:text-2xl font-semibold mb-3 md:mb-4 text-stone-900">What to Expect</h3>
                 <div className="text-stone-600">
                   <p className="mb-1">Friendly atmosphere</p>
                   <p className="mb-1">Come as you are</p>
@@ -78,6 +80,8 @@ export default function VisitPage() {
           </div>
         </section>
 
+        <div className="section-separator"></div>
+
         {/* What to Expect */}
         <section className="py-24 bg-white">
           <div className="container mx-auto px-6">
@@ -86,7 +90,7 @@ export default function VisitPage() {
 
               <div className="space-y-16">
                 <div>
-                  <h3 className="text-2xl font-semibold mb-4 text-emerald-600">When You Arrive</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-green-700">When You Arrive</h3>
                   <p className="text-lg text-stone-600 leading-relaxed">
                     You'll be greeted by friendly faces at the entrance. We have greeters available to help you
                     find your way, answer any questions, and make you feel at home. Feel free to grab a cup of
@@ -95,7 +99,7 @@ export default function VisitPage() {
                 </div>
 
                 <div>
-                  <h3 className="text-2xl font-semibold mb-4 text-emerald-600">During the Service</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-green-700">During the Service</h3>
                   <p className="text-lg text-stone-600 leading-relaxed mb-4">
                     Our worship service typically lasts about 75-90 minutes and includes congregational singing,
                     prayer, Scripture reading, preaching, and the celebration of the Lord's Supper when scheduled.
@@ -108,7 +112,7 @@ export default function VisitPage() {
                 </div>
 
                 <div>
-                  <h3 className="text-2xl font-semibold mb-4 text-emerald-600">After the Service</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-green-700">After the Service</h3>
                   <p className="text-lg text-stone-600 leading-relaxed">
                     We encourage everyone to stay for fellowship after the service. This is a wonderful opportunity
                     to meet people, ask questions, and get to know our community. Our pastor and leaders are always
@@ -120,12 +124,14 @@ export default function VisitPage() {
           </div>
         </section>
 
+        <div className="section-separator"></div>
+
         {/* Connect Card CTA */}
         <section className="py-24">
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl mx-auto bg-white p-12 shadow-soft text-center">
-              <h3 className="text-3xl font-semibold mb-4 text-stone-900">First-Time Visitors</h3>
-              <p className="text-lg text-stone-600 mb-10 leading-relaxed">
+            <div className="max-w-4xl mx-auto bg-white p-6 md:p-12 shadow-soft text-center">
+              <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-stone-900">First-Time Visitors</h3>
+              <p className="text-base md:text-lg text-stone-600 mb-8 md:mb-10 leading-relaxed">
                 If this is your first time visiting, we'd love to connect with you! Fill out our Connect Card
                 to let us know you visited and learn more about The Pasture.
               </p>
@@ -133,7 +139,7 @@ export default function VisitPage() {
                 href="https://thepasture.churchcenter.com/unproxy/people/forms/207027"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center space-x-2 bg-emerald-600 text-white px-10 py-4 hover:bg-emerald-700 transition text-lg"
+                className="inline-flex items-center space-x-2 bg-green-700 text-white px-6 py-3 md:px-10 md:py-4 hover:bg-green-800 transition text-base md:text-lg"
               >
                 <span>Fill Out Connect Card</span>
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -143,6 +149,8 @@ export default function VisitPage() {
             </div>
           </div>
         </section>
+
+        <div className="section-separator"></div>
 
         {/* FAQ */}
         <section className="py-24 bg-white">

@@ -43,12 +43,14 @@ export default function ContactPage() {
           </div>
         </section>
 
+        <div className="section-separator"></div>
+
         {/* Contact Form */}
         <section className="py-24">
           <div className="container mx-auto px-6">
             <div className="max-w-3xl mx-auto">
-              <div className="bg-white p-12 shadow-soft">
-                <form onSubmit={handleSubmit} className="space-y-8">
+              <div className="bg-white p-6 md:p-12 shadow-soft">
+                <form onSubmit={handleSubmit} className="space-y-6 md:space-y-8">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-stone-700 mb-2">
                       Your Name *
@@ -60,7 +62,7 @@ export default function ContactPage() {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-stone-50 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition text-stone-900"
+                      className="w-full px-4 py-3 bg-stone-50 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent transition text-stone-900"
                       placeholder="John Doe"
                     />
                   </div>
@@ -76,7 +78,7 @@ export default function ContactPage() {
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-stone-50 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition text-stone-900"
+                      className="w-full px-4 py-3 bg-stone-50 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent transition text-stone-900"
                       placeholder="john@example.com"
                     />
                   </div>
@@ -92,7 +94,7 @@ export default function ContactPage() {
                       required
                       value={formData.subject}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-stone-50 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition text-stone-900"
+                      className="w-full px-4 py-3 bg-stone-50 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent transition text-stone-900"
                       placeholder="How can we help you?"
                     />
                   </div>
@@ -108,7 +110,7 @@ export default function ContactPage() {
                       rows={6}
                       value={formData.message}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-stone-50 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition resize-none text-stone-900"
+                      className="w-full px-4 py-3 bg-stone-50 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent transition resize-none text-stone-900"
                       placeholder="Tell us what's on your mind..."
                     />
                   </div>
@@ -116,7 +118,7 @@ export default function ContactPage() {
                   <div className="text-center pt-4">
                     <button
                       type="submit"
-                      className="bg-emerald-600 text-white px-10 py-4 hover:bg-emerald-700 transition text-lg inline-flex items-center space-x-2"
+                      className="bg-green-700 text-white px-6 py-3 md:px-10 md:py-4 hover:bg-green-800 transition text-base md:text-lg inline-flex items-center space-x-2"
                     >
                       <span>Send Message</span>
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -132,36 +134,36 @@ export default function ContactPage() {
               </div>
 
               {/* Additional Info */}
-              <div className="grid md:grid-cols-2 gap-8 mt-12">
-                <div className="bg-white p-8 shadow-soft">
+              <div className="grid md:grid-cols-2 gap-6 md:gap-8 mt-8 md:mt-12">
+                <div className="bg-white p-6 md:p-8 shadow-soft">
                   <div className="flex items-center mb-4">
                     <div className="bg-emerald-50 p-3 mr-4">
-                      <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
                     </div>
-                    <h3 className="font-semibold text-lg text-stone-900">Service Times</h3>
+                    <h3 className="font-semibold text-base md:text-lg text-stone-900">Service Times</h3>
                   </div>
                   <p className="text-stone-600">Sunday Worship: 12:30 PM</p>
                   <p className="text-stone-600">Friday Night Gatherings</p>
                 </div>
 
-                <div className="bg-white p-8 shadow-soft">
+                <div className="bg-white p-6 md:p-8 shadow-soft">
                   <div className="flex items-center mb-4">
                     <div className="bg-emerald-50 p-3 mr-4">
-                      <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
                       </svg>
                     </div>
-                    <h3 className="font-semibold text-lg text-stone-900">Connect</h3>
+                    <h3 className="font-semibold text-base md:text-lg text-stone-900">Connect</h3>
                   </div>
                   <p className="text-stone-600 mb-2">Follow us on social media</p>
-                  <div className="flex space-x-3 text-emerald-600">
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-700">
+                  <div className="flex space-x-3 text-green-700">
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-green-800">
                       Instagram
                     </a>
                     <span className="text-stone-400">|</span>
-                    <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-700">
+                    <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-green-800">
                       YouTube
                     </a>
                   </div>

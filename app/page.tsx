@@ -54,7 +54,7 @@ export default function LandingPage() {
 
           <button
             onClick={handleButtonClick}
-            className="relative overflow-hidden bg-gradient-to-r from-emerald-600 to-emerald-500 text-white px-12 py-5 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl hover:from-emerald-700 hover:to-emerald-600 transition-all transform hover:scale-105"
+            className="relative overflow-hidden bg-gradient-to-r from-green-700 to-green-600 text-white px-12 py-5 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl hover:from-green-800 hover:to-green-700 transition-all transform hover:scale-105"
           >
             Join The Herd
             {ripples.map((ripple) => (

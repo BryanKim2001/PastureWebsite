@@ -20,7 +20,7 @@ export default function Footer() {
               <p>Sunday Worship: 12:30 PM</p>
               <p>Friday Night Gatherings</p>
             </div>
-            <Link href="/visit" className="inline-block mt-4 text-emerald-400 hover:text-emerald-300 transition text-sm">
+            <Link href="/visit" className="inline-block mt-4 text-green-500 hover:text-green-400 transition text-sm">
               Plan Your Visit →
             </Link>
           </div>

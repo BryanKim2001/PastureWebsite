@@ -48,39 +48,29 @@ export default function HomePage() {
             />
             <div className="absolute inset-0 bg-black/40" />
           </div>
-          <div className="relative z-10 container mx-auto px-6 h-full flex flex-col justify-center items-center text-center">
-            <div className="max-w-5xl">
-              <div className="mb-12">
-                <div className="flex flex-col md:flex-row md:items-center md:justify-center md:gap-8 gap-4">
-                  <h1 className="text-7xl md:text-9xl font-bold text-white leading-none" style={{ fontFamily: "var(--font-montserrat)" }}>
-                    Remember
-                  </h1>
-                  <span className="hidden md:block text-6xl text-white/60">•</span>
-                  <h1 className="text-7xl md:text-9xl font-bold text-white leading-none" style={{ fontFamily: "var(--font-montserrat)" }}>
-                    Reflect
-                  </h1>
-                  <span className="hidden md:block text-6xl text-white/60">•</span>
-                  <h1 className="text-7xl md:text-9xl font-bold text-white leading-none" style={{ fontFamily: "var(--font-montserrat)" }}>
-                    Rest
-                  </h1>
-                </div>
-                <p className="text-3xl md:text-4xl text-white/90 mt-8 font-light" style={{ fontFamily: "var(--font-montserrat)" }}>
-                  in Christ
+          <div className="relative z-10 container mx-auto px-4 md:px-6 h-full flex flex-col justify-center items-center md:items-start text-center md:text-left">
+            <div className="w-full md:max-w-5xl border-2 md:border-4 border-white bg-black/30 backdrop-blur-sm p-6 md:p-16">
+              <div className="mb-8 md:mb-12">
+                <h1 className="text-4xl sm:text-6xl md:text-[10rem] font-bold text-white leading-tight md:leading-none mb-4 md:mb-6" style={{ fontFamily: "var(--font-montserrat)" }}>
+                  THE PASTURE
+                </h1>
+                <p className="text-base sm:text-xl md:text-3xl text-white/90 mb-4 md:mb-8 font-light" style={{ fontFamily: "var(--font-montserrat)" }}>
+                  To Remember, Reflect, and Rest in Christ together.
+                </p>
+                <p className="text-sm sm:text-lg md:text-2xl text-white/90 mb-8 md:mb-12" style={{ fontFamily: "var(--font-montserrat)", fontWeight: 300 }}>
+                  Join us on Sunday @ 12:30 PM | Friday @ 7:30 PM
                 </p>
               </div>
-              <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto" style={{ fontFamily: "var(--font-montserrat)", fontWeight: 300 }}>
-                A welcoming community where you can find rest and worship
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-6 w-full sm:w-auto">
                 <Link
                   href="/visit"
-                  className="bg-emerald-600 text-white px-10 py-5 hover:bg-emerald-700 transition text-lg font-semibold shadow-xl" style={{ fontFamily: "var(--font-montserrat)" }}
+                  className="bg-green-700 text-white px-6 py-3 sm:px-10 sm:py-5 hover:bg-green-800 transition text-base sm:text-lg font-semibold shadow-xl text-center" style={{ fontFamily: "var(--font-montserrat)" }}
                 >
                   Plan Your Visit
                 </Link>
                 <Link
                   href="/about"
-                  className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-10 py-5 hover:bg-white/20 transition text-lg font-semibold" style={{ fontFamily: "var(--font-montserrat)" }}
+                  className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-6 py-3 sm:px-10 sm:py-5 hover:bg-white/20 transition text-base sm:text-lg font-semibold text-center" style={{ fontFamily: "var(--font-montserrat)" }}
                 >
                   Learn More
                 </Link>
@@ -89,16 +79,26 @@ export default function HomePage() {
           </div>
         </section>
 
+        <div className="section-separator"></div>
+
         {/* Navigation Cards */}
         <section className="py-24 bg-white">
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-stone-900 mb-4" style={{ fontFamily: "var(--font-montserrat)" }}>
-                Explore The Pasture
+                WELCOME TO THE PASTURE
               </h2>
-              <p className="text-xl text-stone-600 max-w-2xl mx-auto">
-                Learn more about who we are, what we believe, and how you can get involved
-              </p>
+              <div className="space-y-1.5 text-center inline-block">
+                <p className="text-lg text-stone-600">
+                  <span className="font-bold text-stone-900">BRING</span> the lost, weak, and the restless.
+                </p>
+                <p className="text-lg text-stone-600">
+                  <span className="font-bold text-stone-900">BUILD</span> confidence and comfort in Christ.
+                </p>
+                <p className="text-lg text-stone-600">
+                  <span className="font-bold text-stone-900">BECOME</span> a culture of Christ to our community and beyond.
+                </p>
+              </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
               {/* About Card */}
@@ -167,11 +167,13 @@ export default function HomePage() {
           </div>
         </section>
 
+        <div className="section-separator"></div>
+
         {/* Photo Carousel */}
         <section className="py-24 bg-stone-50">
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-stone-900 mb-4" style={{ fontFamily: "var(--font-montserrat)" }}>Our Community</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-stone-900 mb-4" style={{ fontFamily: "var(--font-montserrat)" }}>LIFE TOGETHER</h2>
               <p className="text-xl text-stone-600 max-w-2xl mx-auto">
                 See moments from our gatherings, worship, and fellowship
               </p>
@@ -222,7 +224,7 @@ export default function HomePage() {
                     key={index}
                     onClick={() => setCurrentSlide(index)}
                     className={`w-2 h-2 transition ${
-                      index === currentSlide ? 'bg-emerald-600 w-8' : 'bg-stone-300'
+                      index === currentSlide ? 'bg-green-700 w-8' : 'bg-stone-300'
                     }`}
                     aria-label={`Go to slide ${index + 1}`}
                   />
@@ -231,6 +233,8 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        <div className="section-separator"></div>
 
         {/* Bottom CTA */}
         <section className="py-20 bg-white">
@@ -243,7 +247,7 @@ export default function HomePage() {
             </p>
             <Link
               href="/visit"
-              className="inline-block bg-emerald-600 text-white px-10 py-4 hover:bg-emerald-700 transition text-lg"
+              className="inline-block bg-green-700 text-white px-10 py-4 hover:bg-green-800 transition text-lg"
             >
               Plan Your First Visit
             </Link>
