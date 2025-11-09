@@ -9,19 +9,40 @@ import Footer from '../components/Footer';
 const carouselImages = [
   '/pasture_retreat.jpg',
   '/pasture_picnic.jpg',
-  '/pasture_ordination.jpg',
+  '/pasture_retreat_ian.jpg',
   '/pasture_beach.JPG',
-  '/pasture_pnp.jpg',
+  '/pasture_beach2.JPG',
+  '/essentials.jpg',
+  '/pasture_aura_farming.JPG'
 ];
 
 export default function HomePage() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [doorsOpen, setDoorsOpen] = useState(false);
+  const [showDoors, setShowDoors] = useState(true);
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % carouselImages.length);
     }, 5000);
     return () => clearInterval(timer);
+  }, []);
+
+  useEffect(() => {
+    // Trigger door opening animation on mount
+    const openTimer = setTimeout(() => {
+      setDoorsOpen(true);
+    }, 100);
+
+    // Hide doors after animation completes
+    const hideTimer = setTimeout(() => {
+      setShowDoors(false);
+    }, 1300);
+
+    return () => {
+      clearTimeout(openTimer);
+      clearTimeout(hideTimer);
+    };
   }, []);
 
   const nextSlide = () => {
@@ -127,12 +148,12 @@ export default function HomePage() {
                 <div className="bg-white overflow-hidden hover:shadow-lifted transition-all duration-300 shadow-soft">
                   <div className="aspect-[4/3] relative overflow-hidden">
                     <Image
-                      src="/pasture_ordination2.jpg"
+                      src="/pasture_pnp.jpg"
                       alt="Gatherings"
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-stone-900/80 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-stone-900/40 to-transparent" />
                     <div className="absolute bottom-0 left-0 right-0 p-6">
                       <h3 className="text-2xl font-semibold text-white">Gatherings</h3>
                     </div>
@@ -255,6 +276,24 @@ export default function HomePage() {
         </section>
       </main>
       <Footer />
+
+      {/* Door Opening Animation */}
+      {showDoors && (
+        <div className="fixed inset-0 z-[100] pointer-events-none">
+          {/* Left Door */}
+          <div
+            className={`absolute top-0 left-0 h-full w-1/2 bg-stone-900 transition-transform duration-1000 ease-in-out ${
+              doorsOpen ? '-translate-x-full' : 'translate-x-0'
+            }`}
+          />
+          {/* Right Door */}
+          <div
+            className={`absolute top-0 right-0 h-full w-1/2 bg-stone-900 transition-transform duration-1000 ease-in-out ${
+              doorsOpen ? 'translate-x-full' : 'translate-x-0'
+            }`}
+          />
+        </div>
+      )}
     </>
   );
 }

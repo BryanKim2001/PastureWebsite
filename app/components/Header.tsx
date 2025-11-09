@@ -12,8 +12,9 @@ export default function Header() {
       <nav className="container mx-auto px-6 py-5">
         <div className="flex justify-between items-center">
           <Link href="/home" className="flex items-center space-x-4 group">
-            <Image src="/5.png" alt="The Pasture Logo" width={240} height={240} className="h-30 w-auto transition-transform group-hover:scale-105" />
-            {/*<span className="text-4xl text-stone-800 font-semibold" style={{ fontFamily: "var(--font-dancing-script)" }}>The Pasture</span> */}
+            <Image src="/5.png" alt="The Pasture Logo" width={160} height={160} className="h-28 w-auto transition-transform group-hover:scale-105" />
+            <div className="hidden md:block h-16 w-px bg-stone-300"></div>
+            <span className="hidden md:block text-sm text-stone-600 font-light">Remember • Reflect • Rest</span>
           </Link>
 
           {/* Desktop Navigation */}

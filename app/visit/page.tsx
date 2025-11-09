@@ -31,10 +31,10 @@ export default function VisitPage() {
                 </div>
                 <h3 className="text-xl md:text-2xl font-semibold mb-3 md:mb-4 text-stone-900">Location</h3>
                 <div className="text-stone-600">
-                  <p className="mb-1">[Address Line 1]</p>
-                  <p className="mb-4">[City, State ZIP]</p>
+                  <p className="mb-1">6633 Beach Blvd,</p>
+                  <p className="mb-4">Buena Park, CA</p>
                   <a
-                    href="https://maps.google.com"
+                    href="https://google.com/maps/place/Il+Shin+Presbyterian+Church(일신장로교회)/@33.8637336,-118.0011864,17z/data=!4m6!3m5!1s0x80c2cd5d1d367ee7:0x3cc82a1e04a0c217!8m2!3d33.8637084!4d-117.9983871!16s%2Fg%2F1tf6mgv4?entry=ttu&g_ep=EgoyMDI1MTEwNC4xIKXMDSoASAFQAw%3D%3D"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-green-700 hover:text-green-800 font-medium"
@@ -56,10 +56,6 @@ export default function VisitPage() {
                     <p className="font-medium text-green-700">Sunday Worship</p>
                     <p>12:30 PM</p>
                   </div>
-                  <div className="pt-2">
-                    <p className="font-medium text-green-700">Friday Gatherings</p>
-                    <p>Evening</p>
-                  </div>
                 </div>
               </div>
 
@@ -71,53 +67,7 @@ export default function VisitPage() {
                 </div>
                 <h3 className="text-xl md:text-2xl font-semibold mb-3 md:mb-4 text-stone-900">What to Expect</h3>
                 <div className="text-stone-600">
-                  <p className="mb-1">Friendly atmosphere</p>
-                  <p className="mb-1">Come as you are</p>
-                  <p>All are welcome</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <div className="section-separator"></div>
-
-        {/* What to Expect */}
-        <section className="py-24 bg-white">
-          <div className="container mx-auto px-6">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-4xl md:text-5xl font-light text-stone-900 mb-16 text-center">What to Expect</h2>
-
-              <div className="space-y-16">
-                <div>
-                  <h3 className="text-2xl font-semibold mb-4 text-green-700">When You Arrive</h3>
-                  <p className="text-lg text-stone-600 leading-relaxed">
-                    You'll be greeted by friendly faces at the entrance. We have greeters available to help you
-                    find your way, answer any questions, and make you feel at home. Feel free to grab a cup of
-                    coffee and mingle before the service begins.
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="text-2xl font-semibold mb-4 text-green-700">During the Service</h3>
-                  <p className="text-lg text-stone-600 leading-relaxed mb-4">
-                    Our worship service typically lasts about 75-90 minutes and includes congregational singing,
-                    prayer, Scripture reading, preaching, and the celebration of the Lord's Supper when scheduled.
-                    We follow a liturgy rooted in the historic Reformed tradition.
-                  </p>
-                  <p className="text-lg text-stone-600 leading-relaxed">
-                    Don't worry if you're unfamiliar with the format—we provide bulletins that guide you through
-                    the service, and you're welcome to participate as much or as little as you're comfortable with.
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="text-2xl font-semibold mb-4 text-green-700">After the Service</h3>
-                  <p className="text-lg text-stone-600 leading-relaxed">
-                    We encourage everyone to stay for fellowship after the service. This is a wonderful opportunity
-                    to meet people, ask questions, and get to know our community. Our pastor and leaders are always
-                    available to chat.
-                  </p>
+                  <p className="mb-1">Casual, friendly, 60-75 minutes. Lunch and fellowship afterwards.</p>
                 </div>
               </div>
             </div>
@@ -127,7 +77,7 @@ export default function VisitPage() {
         <div className="section-separator"></div>
 
         {/* Connect Card CTA */}
-        <section className="py-24">
+        <section className="py-24 bg-white">
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto bg-white p-6 md:p-12 shadow-soft text-center">
               <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-stone-900">First-Time Visitors</h3>
@@ -146,49 +96,6 @@ export default function VisitPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
               </a>
-            </div>
-          </div>
-        </section>
-
-        <div className="section-separator"></div>
-
-        {/* FAQ */}
-        <section className="py-24 bg-white">
-          <div className="container mx-auto px-6">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-4xl md:text-5xl font-light text-stone-900 mb-16 text-center">Common Questions</h2>
-
-              <div className="space-y-8">
-                <div className="pb-8 border-b border-stone-200">
-                  <h3 className="text-xl font-semibold mb-3 text-stone-900">What should I wear?</h3>
-                  <p className="text-lg text-stone-600 leading-relaxed">
-                    Come as you are! You'll see a mix of styles. What matters most is that you're comfortable
-                    and ready to worship.
-                  </p>
-                </div>
-
-                <div className="pb-8 border-b border-stone-200">
-                  <h3 className="text-xl font-semibold mb-3 text-stone-900">Do I need to bring anything?</h3>
-                  <p className="text-lg text-stone-600 leading-relaxed">
-                    Just yourself! We'll provide a bulletin to guide you through the service.
-                  </p>
-                </div>
-
-                <div className="pb-8 border-b border-stone-200">
-                  <h3 className="text-xl font-semibold mb-3 text-stone-900">Is there childcare available?</h3>
-                  <p className="text-lg text-stone-600 leading-relaxed">
-                    Please contact us for information about childcare and children's ministry options.
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold mb-3 text-stone-900">Will I be asked to give money?</h3>
-                  <p className="text-lg text-stone-600 leading-relaxed">
-                    We do take up an offering during the service, but there's absolutely no pressure for visitors
-                    to give. You're here to experience our community and hear God's Word.
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </section>

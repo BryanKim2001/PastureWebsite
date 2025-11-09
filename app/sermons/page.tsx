@@ -65,7 +65,7 @@ export default function SermonsPage() {
               </div>
 
               <p className="text-lg text-stone-600 mt-12 mb-8">
-                In the meantime, join us for worship on Sunday mornings at 12:30 PM to hear the Word preached live.
+                In the meantime, join us for worship on Sunday afternoons at 12:30 PM to hear the Word preached live.
               </p>
               <Link
                 href="/visit"

@@ -18,7 +18,7 @@ export default function Footer() {
             <h4 className="text-sm font-semibold text-white mb-4 uppercase tracking-wide">Service Times</h4>
             <div className="space-y-2 text-sm">
               <p>Sunday Worship: 12:30 PM</p>
-              <p>Friday Night Gatherings</p>
+              <p>Friday Night Gatherings: 7:30 PM</p>
             </div>
             <Link href="/visit" className="inline-block mt-4 text-green-500 hover:text-green-400 transition text-sm">
               Plan Your Visit →
@@ -41,7 +41,7 @@ export default function Footer() {
             <h4 className="text-sm font-semibold text-white mb-4 uppercase tracking-wide">Connect</h4>
             <div className="flex space-x-4">
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/thepastureministry/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white transition"
@@ -52,7 +52,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://www.youtube.com"
+                href="https://www.youtube.com/@christcovenantfellowshippc8686"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white transition"

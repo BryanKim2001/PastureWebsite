@@ -9,7 +9,7 @@ export default function AboutPage() {
       <Header />
       <main className="bg-stone-50">
         {/* Hero Section with Photo */}
-        <section className="relative h-[60vh] min-h-[500px]">
+        <section className="relative h-[80vh] min-h-[500px]">
           <div className="absolute inset-0">
             <Image
               src="/pasture_ordination3.jpg"
@@ -39,29 +39,22 @@ export default function AboutPage() {
                 <div>
                   <h3 className="text-2xl font-semibold mb-4 text-green-700">Our Background</h3>
                   <p className="text-lg text-stone-600 leading-relaxed">
-                    The Pasture was founded with a vision to create a welcoming community where believers and seekers
-                    alike can find rest in Christ. Inspired by Psalm 23, we strive to be a place where people can
-                    experience the Good Shepherd's care, provision, and peace. Our journey began with a small group
-                    of believers committed to sharing the gospel and building authentic relationships centered on Christ.
+                  The Pasture is the English Ministry of young adults at Ilshin Presbyterian Church (ISPC). ISPC began in Downey and relocated to Buena Park in the summer of 2017, where our ministry has continued under the care of our mother church.
+                  Over the years, we've experienced many seasons of change, but in early 2025 we embraced a new chapter by rebranding as The Pasture. This name reflects what our community has come to long for most: a place of true rest and solace in Christ. While still a young ministry, we are committed to building a strong theological foundation and nurturing a Christ-centered community where weary souls can find renewal, encouragement, and belonging.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-2xl font-semibold mb-4 text-green-700">Our Vision</h3>
                   <p className="text-lg text-stone-600 leading-relaxed">
-                    We envision a community where people from all walks of life can find belonging, grow in their faith,
-                    and experience the transforming power of the gospel. Like sheep in a pasture, we aim to provide a
-                    safe, nurturing environment where souls can be refreshed, hearts can be encouraged, and lives can
-                    be transformed by the grace of God.
+                  We envision a community where those who are lost, weak, and weary can find true rest in Christ. Our desire is to bring people into the presence of God, build their confidence in the gospel, and become a culture that reflects Christ to our neighbors and beyond. We long to embody the words of Jesus: “Come to me, all who labor and are heavy laden, and I will give you rest” (Matthew 11:28). In a restless world, our vision is to be a place where souls are refreshed, disciples are formed, and the love of Christ extends outward to impact families, workplaces, and communities.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-2xl font-semibold mb-4 text-green-700">Our Mission</h3>
                   <p className="text-lg text-stone-600 leading-relaxed">
-                    Our mission is to glorify God by making disciples of Jesus Christ, equipping believers for faithful
-                    living, and extending God's love to our community and beyond. We are committed to biblical teaching,
-                    authentic worship, compassionate service, and intentional discipleship.
+                  Our mission is to center everything we do on Christ. We gather for worship that exalts God in spirit and in truth (John 4:24), leading us deeper into discipleship where His Word transforms our lives (2 Timothy 3:16–17). Out of this, we cultivate fellowship that reflects the unity of the body of Christ (Acts 2:42–47), where burdens are shared and joys are multiplied. Through worship, discipleship, and fellowship, we aim to not only grow in faith ourselves but also to invite others to encounter the same grace, peace, and rest we have found in Jesus.
                   </p>
                 </div>
               </div>
@@ -85,16 +78,11 @@ export default function AboutPage() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl md:text-2xl font-semibold mb-4 text-stone-900">Presbyterian Church in America (PCA)</h3>
+                    <h3 className="text-xl md:text-2xl font-semibold mb-4 text-stone-900">Dedicated to a reformed faith</h3>
                     <p className="text-lg text-stone-600 leading-relaxed mb-4">
-                      The Pasture is a member church of the Presbyterian Church in America (PCA), a denomination
-                      committed to the authority of Scripture and the Reformed faith.
+                    Our church belongs to the Presbyterian Church of America(PCA), whose beliefs are summarized in the Westminster Confession of Faith and Catechisms. We gladly confess Christ, submit to Scripture, and seek to live out the gospel together.
                     </p>
-                    <p className="text-lg text-stone-600 leading-relaxed mb-8">
-                      Our beliefs are summarized in the Westminster Confession of Faith and the Westminster Larger
-                      and Shorter Catechisms. These historic documents faithfully express the system of doctrine
-                      taught in the Scriptures.
-                    </p>
+        
                     <a
                       href="https://www.pcaac.org/bco/westminster-confession/"
                       target="_blank"
@@ -133,20 +121,14 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <div className="md:col-span-3">
-                  <h3 className="text-3xl font-semibold mb-2 text-stone-900">Pastor [Name]</h3>
+                  <h3 className="text-3xl font-semibold mb-2 text-stone-900">Pastor Issac Oh</h3>
                   <p className="text-green-700 font-medium mb-8 text-lg">Lead Pastor</p>
                   <div className="space-y-6 text-lg text-stone-600 leading-relaxed">
                     <p>
-                      [Pastor bio will go here. This section will include information about the pastor's background,
-                      education, calling to ministry, and heart for the congregation.]
+                    Issac Oh was born and raised in Southern California, spending his early years in Orange, Los Angeles, and San Bernardino Counties. After high school, he moved to Las Vegas, Nevada, where he pursued a career in the hospitality and entertainment industry for nearly a decade. During that time, the Lord called him into ministry, leading him back to California to continue his education and prepare for pastoral service.
                     </p>
                     <p>
-                      [Additional paragraph about the pastor's vision for The Pasture, their family, interests,
-                      and what they hope to see God do in and through this community.]
-                    </p>
-                    <p>
-                      [Concluding paragraph highlighting the pastor's commitment to shepherding the flock and
-                      serving the community with the love of Christ.]
+                    Issac earned a B.A. in Christian Ministries from The Master's University and went on to receive his Master of Divinity from Westminster Seminary California. He is now an ordained minister in the Presbyterian Church in America (PCA) and joyfully serves Christ and His church through preaching, teaching, and shepherding God's people.
                     </p>
                   </div>
                 </div>
