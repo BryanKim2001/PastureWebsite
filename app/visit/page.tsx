@@ -11,7 +11,7 @@ export default function VisitPage() {
           <div className="container mx-auto px-6 text-center max-w-4xl">
             <h1 className="text-5xl md:text-6xl font-light text-stone-900 mb-6">Plan Your Visit</h1>
             <p className="text-xl text-stone-600">
-              We can't wait to welcome you. Here's everything you need to know.
+              We can&apos;t wait to welcome you. Here&apos;s everything you need to know.
             </p>
           </div>
         </section>
@@ -82,7 +82,7 @@ export default function VisitPage() {
             <div className="max-w-4xl mx-auto bg-white p-6 md:p-12 shadow-soft text-center">
               <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-stone-900">First-Time Visitors</h3>
               <p className="text-base md:text-lg text-stone-600 mb-8 md:mb-10 leading-relaxed">
-                If this is your first time visiting, we'd love to connect with you! Fill out our Connect Card
+                If this is your first time visiting, we&apos;d love to connect with you! Fill out our Connect Card
                 to let us know you visited and learn more about The Pasture.
               </p>
               <a

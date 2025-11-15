@@ -38,17 +38,14 @@ export default function LandingPage() {
       <div className="relative z-10 h-full flex flex-col items-center justify-start pt-24 md:pt-32 px-6">
         <div className="animate-fade-in text-center">
           <Image
-            src="/5.png"
-            alt="The Pasture Logo"
-            width={180}
-            height={180}
-            className="mb-8 mx-auto"
+            src="/thepasture_logo.png"
+            alt="The Pasture"
+            width={280}
+            height={280}
+            className="mb-20 mx-auto"
             priority
           />
-          <h1 className="text-6xl md:text-7xl mb-6 text-stone-800 font-bold" style={{ fontFamily: "var(--font-dancing-script)" }}>
-            The Pasture
-          </h1>
-          <p className="text-xl md:text-2xl text-stone-700 font-light tracking-wide mb-12">
+          <p className="text-base md:text-3xl text-stone-700 font-light tracking-wide mb-10 px-4 mx-auto whitespace-nowrap">
             Remember, Reflect, and Rest in Christ
           </p>
 
@@ -56,7 +53,7 @@ export default function LandingPage() {
             onClick={handleButtonClick}
             className="relative overflow-hidden bg-gradient-to-r from-green-700 to-green-600 text-white px-12 py-5 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl hover:from-green-800 hover:to-green-700 transition-all transform hover:scale-105"
           >
-            Join The Herd
+            Enter The Flock
             {ripples.map((ripple) => (
               <span
                 key={ripple.id}

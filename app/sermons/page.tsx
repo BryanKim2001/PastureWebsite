@@ -30,7 +30,7 @@ export default function SermonsPage() {
               </div>
               <h2 className="text-4xl font-light text-stone-900 mb-6">Under Construction</h2>
               <p className="text-xl text-stone-600 mb-16 leading-relaxed">
-                We're currently building our sermon archive. Check back soon for messages
+                We&apos;re currently building our sermon archive. Check back soon for messages
                 and teachings from our Sunday worship services.
               </p>
 
@@ -54,12 +54,6 @@ export default function SermonsPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     <span className="text-lg text-stone-600">Search by topic, speaker, or scripture</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-6 h-6 text-green-700 mr-4 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    <span className="text-lg text-stone-600">Subscribe to podcast feed</span>
                   </li>
                 </ul>
               </div>

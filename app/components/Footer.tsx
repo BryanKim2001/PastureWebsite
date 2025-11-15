@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           {/* Logo and Motto */}
           <div className="md:col-span-1">
-            <Image src="/5.png" alt="The Pasture Logo" width={60} height={60} className="mb-4 opacity-90" />
+            <Image src="/thepasture_logo.png" alt="The Pasture Logo" width={120} height={120} className="mb-6 opacity-90" />
             <h3 className="text-xl font-semibold text-white mb-2">The Pasture</h3>
             <p className="text-sm text-stone-400 leading-relaxed">Remember, Reflect, and Rest in Christ</p>
           </div>

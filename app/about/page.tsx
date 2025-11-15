@@ -40,7 +40,7 @@ export default function AboutPage() {
                   <h3 className="text-2xl font-semibold mb-4 text-green-700">Our Background</h3>
                   <p className="text-lg text-stone-600 leading-relaxed">
                   The Pasture is the English Ministry of young adults at Ilshin Presbyterian Church (ISPC). ISPC began in Downey and relocated to Buena Park in the summer of 2017, where our ministry has continued under the care of our mother church.
-                  Over the years, we've experienced many seasons of change, but in early 2025 we embraced a new chapter by rebranding as The Pasture. This name reflects what our community has come to long for most: a place of true rest and solace in Christ. While still a young ministry, we are committed to building a strong theological foundation and nurturing a Christ-centered community where weary souls can find renewal, encouragement, and belonging.
+                  Over the years, we have experienced many seasons of change, but in early 2025 we embraced a new chapter by rebranding as The Pasture. This name reflects what our community has come to long for most: a place of true rest and solace in Christ. While still a young ministry, we are committed to building a strong theological foundation and nurturing a Christ-centered community where weary souls can find renewal, encouragement, and belonging.
                   </p>
                 </div>
 
@@ -128,7 +128,7 @@ export default function AboutPage() {
                     Issac Oh was born and raised in Southern California, spending his early years in Orange, Los Angeles, and San Bernardino Counties. After high school, he moved to Las Vegas, Nevada, where he pursued a career in the hospitality and entertainment industry for nearly a decade. During that time, the Lord called him into ministry, leading him back to California to continue his education and prepare for pastoral service.
                     </p>
                     <p>
-                    Issac earned a B.A. in Christian Ministries from The Master's University and went on to receive his Master of Divinity from Westminster Seminary California. He is now an ordained minister in the Presbyterian Church in America (PCA) and joyfully serves Christ and His church through preaching, teaching, and shepherding God's people.
+                    Issac earned a B.A. in Christian Ministries from The Master&apos;s University and went on to receive his Master of Divinity from Westminster Seminary California. He is now an ordained minister in the Presbyterian Church in America (PCA) and joyfully serves Christ and His church through preaching, teaching, and shepherding God&apos;s people.
                     </p>
                   </div>
                 </div>

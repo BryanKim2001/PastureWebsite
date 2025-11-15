@@ -58,7 +58,7 @@ export default function HomePage() {
       <Header />
       <main className="bg-stone-50">
         {/* Hero Section with Photo */}
-        <section className="relative h-[90vh] min-h-[700px]">
+        <section className="relative min-h-[600px] md:h-[90vh] md:min-h-[700px]">
           <div className="absolute inset-0">
             <Image
               src="/blacknwhite.jpg"
@@ -72,13 +72,13 @@ export default function HomePage() {
           <div className="relative z-10 container mx-auto px-4 md:px-6 h-full flex flex-col justify-center items-center md:items-start text-center md:text-left">
             <div className="w-full md:max-w-5xl border-2 md:border-4 border-white bg-black/30 backdrop-blur-sm p-6 md:p-16">
               <div className="mb-8 md:mb-12">
-                <h1 className="text-4xl sm:text-6xl md:text-[10rem] font-bold text-white leading-tight md:leading-none mb-4 md:mb-6" style={{ fontFamily: "var(--font-montserrat)" }}>
+                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-tight mb-4 md:mb-6" style={{ fontFamily: "var(--font-montserrat)" }}>
                   THE PASTURE
                 </h1>
-                <p className="text-base sm:text-xl md:text-3xl text-white/90 mb-4 md:mb-8 font-light" style={{ fontFamily: "var(--font-montserrat)" }}>
+                <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-4 md:mb-6 font-light" style={{ fontFamily: "var(--font-montserrat)" }}>
                   To Remember, Reflect, and Rest in Christ together.
                 </p>
-                <p className="text-sm sm:text-lg md:text-2xl text-white/90 mb-8 md:mb-12" style={{ fontFamily: "var(--font-montserrat)", fontWeight: 300 }}>
+                <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/90 mb-6 md:mb-8" style={{ fontFamily: "var(--font-montserrat)", fontWeight: 300 }}>
                   Join us on Sunday @ 12:30 PM | Friday @ 7:30 PM
                 </p>
               </div>
@@ -264,7 +264,7 @@ export default function HomePage() {
               New to The Pasture?
             </h2>
             <p className="text-xl text-stone-600 mb-10">
-              We'd love to meet you. Find out what to expect when you visit.
+              We&apos;d love to meet you. Find out what to expect when you visit.
             </p>
             <Link
               href="/visit"

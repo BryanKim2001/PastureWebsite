@@ -38,7 +38,7 @@ export default function ContactPage() {
           <div className="container mx-auto px-6 text-center max-w-4xl">
             <h1 className="text-5xl md:text-6xl font-light text-stone-900 mb-6">Contact Us</h1>
             <p className="text-xl text-stone-600">
-              We'd love to hear from you. Send us a message and we'll get back to you soon.
+              We&apos;d love to hear from you. Send us a message and we&apos;ll get back to you soon.
             </p>
           </div>
         </section>

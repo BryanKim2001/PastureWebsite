@@ -12,9 +12,9 @@ export default function Header() {
       <nav className="container mx-auto px-6 py-5">
         <div className="flex justify-between items-center">
           <Link href="/home" className="flex items-center space-x-4 group">
-            <Image src="/5.png" alt="The Pasture Logo" width={160} height={160} className="h-28 w-auto transition-transform group-hover:scale-105" />
-            <div className="hidden md:block h-16 w-px bg-stone-300"></div>
-            <span className="hidden md:block text-sm text-stone-600 font-light">Remember • Reflect • Rest</span>
+            <Image src="/thepasture_logo.png" alt="The Pasture Logo" width={160} height={160} className="h-28 w-auto transition-transform group-hover:scale-105" />
+            <div className="hidden xl:block h-16 w-px bg-stone-300"></div>
+            <span className="hidden xl:block text-sm text-stone-600 font-light">Remember • Reflect • Rest</span>
           </Link>
 
           {/* Desktop Navigation */}

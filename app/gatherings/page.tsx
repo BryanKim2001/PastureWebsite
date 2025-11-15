@@ -51,13 +51,13 @@ export default function GatheringsPage() {
                   <div className="space-y-4 md:space-y-6 text-base md:text-lg text-stone-600 leading-relaxed">
                     <p>
                       Our Sunday worship service is the heart of our weekly gatherings. We come together as a
-                      community to sing songs of praise, pray, hear God's Word preached,
+                      community to sing songs of praise, pray, hear God&apos;s Word preached,
                       and encourage one another in our walk with Christ.
                     </p>
                     <p>
                       The service follows the historic liturgy of the Reformed tradition, guiding us through
-                      confession, assurance of pardon, and responsive praise. Whether you're a longtime believer
-                      or exploring faith for the first time, you'll find a warm welcome at The Pasture.
+                      confession, assurance of pardon, and responsive praise. Whether you&apos;re a longtime believer
+                      or exploring faith for the first time, you&apos;ll find a warm welcome at The Pasture.
                     </p>
                   </div>
 
@@ -93,7 +93,7 @@ export default function GatheringsPage() {
                     On Friday nights we gather for a deeper dive into our faith. These studies are designed to help us not only understand what we believe but also why we believe it—and how to faithfully defend our hope in Christ.
                     </p>
                     <p>
-                    We're currently working through the Westminster Shorter Catechism, and each 90-minute session offers rich discussion, thoughtful questions, and opportunities to grow together in knowledge and love of God.
+                    We&apos;re currently working through the Westminster Shorter Catechism, and each 90-minute session offers rich discussion, thoughtful questions, and opportunities to grow together in knowledge and love of God.
                     </p>
                   </div>
 

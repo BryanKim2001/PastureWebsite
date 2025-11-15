@@ -12,7 +12,7 @@ export default function GivingPage() {
           <div className="container mx-auto px-6 text-center max-w-4xl">
             <h1 className="text-5xl md:text-6xl font-light text-stone-900 mb-6">Giving</h1>
             <p className="text-xl text-stone-600">
-              Supporting God's work through generous and cheerful giving
+              Supporting God&apos;s work through generous and cheerful giving
             </p>
           </div>
         </section>
@@ -28,7 +28,7 @@ export default function GivingPage() {
               <div className="bg-white p-6 md:p-12 shadow-soft text-center">
                 <h3 className="text-xl md:text-2xl font-semibold mb-4 text-stone-900">Give via Venmo</h3>
                 <p className="text-base md:text-lg text-stone-600 mb-8 md:mb-10">
-                  You can support The Pasture's ministry through Venmo
+                  You can support The Pasture&apos;s ministry through Venmo
                 </p>
 
                 <div className="bg-stone-50 p-6 md:p-10 mb-8 md:mb-10">
@@ -70,22 +70,22 @@ export default function GivingPage() {
 
               <div className="space-y-8 text-lg text-stone-600 leading-relaxed">
                 <p>
-                  We understand giving as a joyful response to God's overwhelming grace
-                  and generosity toward us. As the Apostle Paul writes, "God loves a cheerful giver" (2 Corinthians 9:7).
+                  We understand giving as a joyful response to God&apos;s overwhelming grace
+                  and generosity toward us. As the Apostle Paul writes, &quot;God loves a cheerful giver&quot; (2 Corinthians 9:7).
                   Our giving is not motivated by obligation or compulsion, but by gratitude for the abundant blessings
                   we have received in Christ.
                 </p>
 
                 <div className="bg-white p-6 md:p-10 shadow-soft">
                   <p className="mb-6">
-                    Throughout Scripture, we see that giving is an act of worship and trust in God's provision.
+                    Throughout Scripture, we see that giving is an act of worship and trust in God&apos;s provision.
                     The Westminster Shorter Catechism reminds us that our chief end is to glorify God and enjoy
                     Him forever—and our financial stewardship is one way we glorify God by acknowledging His
                     ownership of all things and His faithfulness to provide.
                   </p>
                   <div className="border-l-4 border-green-700 pl-6 italic text-stone-700">
-                    "Each one must give as he has decided in his heart, not reluctantly or under compulsion,
-                    for God loves a cheerful giver."
+                  &quot;Each one must give as he has decided in his heart, not reluctantly or under compulsion,
+                    for God loves a cheerful giver.&quot;
                     <br />
                     <span className="text-sm font-semibold not-italic mt-2 block">— 2 Corinthians 9:7</span>
                   </div>
